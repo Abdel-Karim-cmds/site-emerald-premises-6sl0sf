@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #faf8f5;
+  color: #1c1917;
+}
+
+.serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Subtle bespoke custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5e5e5e;
+}
